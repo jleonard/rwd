@@ -7,6 +7,6 @@
 3. Bring phones and tablets to experiment with.
 
 
-## Reading 
+## Resources 
 * [screensiz.es](http://screensiz.es/phone)
 * [understanding pixel densities](http://www.teehanlax.com/blog/density-converter/)
