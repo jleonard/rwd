@@ -1,5 +1,7 @@
 # Responsive Web Design 101
 
+> hi
+
 ## School Supplies
 
 1. Download [Chrome](https://www.google.com/intl/en/chrome/browser/) if you don't have it already.
