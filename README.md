@@ -6,7 +6,6 @@
 2. You'll need a code editor. I prefer [Sublime Text](http://www.sublimetext.com/3). Microsoft Word doesn't count.
 3. Bring phones and tablets to experiment with.
 
-
 ## Resources 
 * [screensiz.es](http://screensiz.es/phone)
 * [Designing for multiple pixel densities](http://www.teehanlax.com/blog/density-converter/)
