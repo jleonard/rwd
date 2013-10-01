@@ -9,4 +9,4 @@
 
 ## Resources 
 * [screensiz.es](http://screensiz.es/phone)
-* [understanding pixel densities](http://www.teehanlax.com/blog/density-converter/)
+* [Designing for multiple pixel densities](http://www.teehanlax.com/blog/density-converter/)
