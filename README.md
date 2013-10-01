@@ -1,2 +1,1 @@
-rwd
-===
+# Responsive Web Design
