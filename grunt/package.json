@@ -1,0 +1,39 @@
+{
+  "name": "rwd101",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib": "~0.6.1",
+    "grunt-bump": "0.0.2",
+    "grunt-docs": "latest",
+    "grunt-bytesize": "latest",
+    "grunt-ghost": "latest",
+    "grunt-groundskeeper": "latest",
+    "grunt-package-sync": "https://github.com/jleonard/grunt-package-sync/archive/master.tar.gz",
+    "grunt-shell": "~0.2.2",
+    "grunt-zip": "~0.9.0",
+    "grunt-regex-replace": "0.2.2",
+    "grunt-docpad-styleguide-color": "https://github.com/jleonard/grunt-docpad-styleguide-color/archive/master.tar.gz",
+    "grunt-docpad-styleguide-keyval": "https://github.com/jleonard/grunt-docpad-styleguide-keyval/archive/master.tar.gz"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jleonard/rwd"
+  },
+  "maintainers": [
+    {
+      "name": "",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "contributors": [
+    {
+      "name": "",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "homepage": ""
+}

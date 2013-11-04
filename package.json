@@ -1,0 +1,42 @@
+{
+  "name": "rwd101",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "",
+  "keywords": [],
+  "author": {
+    "name": "John Leonard",
+    "email": "thejohnleonard@gmail.com",
+    "url": ""
+  },
+  "maintainers": [
+    {
+      "name": "",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "contributors": [
+    {
+      "name": "",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "bugs": {
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jleonard/rwd"
+  },
+  "engines": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "main": "",
+  "scripts": {
+    "test": ""
+  }
+}

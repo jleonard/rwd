@@ -1,0 +1,76 @@
+@import "_css3.less";
+@import "_util.less";
+@import "_position.less";
+
+@import "variables.less";
+@import "ink.less";
+
+/*
+* scaffolding
+*/
+*,
+*:before,
+*:after {
+  #css3 > .box-sizing(border-box);
+}
+
+html,body{
+	margin:0;
+	padding:0;
+
+}
+
+main{
+	margin:0 auto;
+	width:90%;
+}
+
+/*
+* grid setup
+*/
+row,column{
+	display: block;
+	min-height: 1px;
+	position: static;
+}
+
+row,div.row{
+	margin-left:  (@gutter / -2);
+  margin-right: (@gutter / -2);
+  #util > .clearfix();
+}
+
+.column-1,
+.column-2,
+.column-3,
+.column-4,
+.column-5,
+.column-6,
+.column-7,
+.column-8,
+.column-9,
+.column-10,
+.column-11,
+.column-12{
+	position: relative;
+	min-height: 1px;
+	padding-left:  (@gutter / 2);
+  	padding-right: (@gutter / 2);
+}
+
+@media (min-width: @tablet-breakpoint) {
+	.column-1,
+	.column-2,
+	.column-3,
+	.column-4,
+	.column-5,
+	.column-6,
+	.column-7,
+	.column-8,
+	.column-9,
+	.column-10,
+	.column-11,
+	.column-12{
+		float: left;
+	}
+}
