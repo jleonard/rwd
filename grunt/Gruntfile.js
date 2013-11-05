@@ -40,8 +40,10 @@ module.exports = function(grunt) {
       },
       build: {
         src: [
+          '../js/breakpoint-label.js',
+          '../js/mobile-first-demo.js'
         ],
-        dest: '../dist/src/js/app.js',
+        dest: '../js/rwd.min.js',
         nonull: true
       }
     },
@@ -53,7 +55,8 @@ module.exports = function(grunt) {
         },
         files: {
           "../css/base.css": "../less/base.less",
-          '../css/grid.css': "../less/grid.less"
+          '../css/grid.css': "../less/grid.less",
+          '../css/devices.css': "../less/devices.less"
         }
       }
     },
@@ -96,7 +99,7 @@ module.exports = function(grunt) {
     },
     
     watch: { // !
-      files: ['../js/**','../less/**',"../*.html"],
+      files: ['../less/**',"../*.html"],
       tasks: ['default'],
       options: {
         livereload: false
