@@ -1,0 +1,37 @@
+mobile,
+tablet,
+desktop {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  padding: 20px;
+}
+mobile {
+  border: 15px solid #000;
+  border-top: 30px solid #000;
+  border-bottom: 30px solid #000;
+  border-radius: 5px;
+  width: 160px;
+  height: 240px;
+  background-color: #fff;
+}
+mobile h2 {
+  font-size: 0.9em;
+}
+tablet {
+  border: 15px solid #000;
+  border-top: 30px solid #000;
+  border-bottom: 40px solid #000;
+  border-radius: 5px;
+  width: 256px;
+  height: 341.3333333333333px;
+  background-color: #fff;
+}
+desktop {
+  border: 2px solid #c2c2c2;
+  border-top: 30px solid #c2c2c2;
+  border-radius: 5px;
+  width: 512px;
+  height: 300px;
+  background-color: #fff;
+}

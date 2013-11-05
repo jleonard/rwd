@@ -1,7 +1,11 @@
 @ink: #B0E2FF;
-@ink-border: #4A708B;
+//@ink-border: #4A708B;
 
-.ink{
-	background-color: @ink;
-	border: 1px solid @ink-border;
+body.ink{
+	background-color: lighten(@ink,5%);
+	color: darken(@ink,30%); 
+	column,.column{
+		background-color: @ink;
+		border: 2px solid darken(@ink,30%);
+	}
 }
