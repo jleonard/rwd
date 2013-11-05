@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body>
+
+	<h1>Responsive Web Design</h1>
+
+	<section>
+		<h2>Intro</h2>
+		<h3>Covering the basics</h3>
+		<ul>
+			<li>designing a front-end for multiple device breakpoints</li>
+			<li>focus on page composition</li>
+		</ul>
+	</section>
+
+
+	<section>
+		<h2>The basics</h2>
+		<h3>html + css + js</h3>
+		<ul>
+			<li>html + css + js are the three technologies that make up the "front-end"</li>
+			<li>these technologies advance over time but haven't been replaced since their introduction</li>
+			<li>packages like Bootstrap or jQuery are one or more of these technologes combined</li>
+		</ul>
+
+		<h3>html</h3>
+		<ul>
+			<li><a href="html-demo.html" target="_blank">the structure</a> to map content to</li>
+			<li>html is like a tree with parent/child relationships<br>
+				<img src="img/html-tree-good.png" /><br>
+				<img src="img/html-tree-bad.png" /><br>
+				<img src="img/html-container.png" />
+			</li>
+		</ul>
+
+		<h3>css</h3>
+		<ul>
+			<li>applies style to your html</li>
+		</ul>
+
+		<h3>js</h3>
+		<ul>
+			<li>gives us page functionality</li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>Media queries</h2>
+		<ul>
+			<li>defines multiple styles based on device specifics like orientation, display dimensions & resolution</li>
+		</ul>
+
+		<h3>Project Planning: setting responsive breakpoints</h3>
+		<ul>
+			<li><a href="http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density" target="_blank">display sizes</a> are NOT standardized</li>
+			<li>display sizes are a spectrum and breakpoints are points along that spectrum where you want to redefine your UI and layout</li>
+			<li>typically you set 3 breakpoints (mobile, tablet, desktop) and let the devices sort themselves out based on their dimensions<br>
+				<img src="img/breakpoints.png">
+				
+			</li>
+		</ul>
+
+		<h3>Resolution and device orientation</h3>
+		<ul>
+			<li>screen resolution and device orientation add complexity to our nice breakpoint spectrum<br>
+				<img src="img/breakpoints-w-landscape.png"></li>
+		</ul>
+
+		<h3>Device width vs. browser width</h3>
+			<a href="http://www.starbuucks.com" target="_blank">starbucks</a> vs <a href="http://www.frogdesign.com" target="_blank">frog</a>
+	</section>
+
+
+	<section>
+		<h2>grids</h2>
+			<a href="grids.html" target="_blank">grid example</a>
+	</section>
+
+
+	<section>
+		<h2>Advanced Topics & Tips & Do's and Don'ts</h2>
+		<ul>
+			<li>DO hide/show elements</li>
+			<li>DON'T duplicate DOM elements because you're breaking the parent/child nesting</li>
+		</ul>
+
+		<h2>Things to consider</h2>
+		<ul>	
+			<li>no rollovers on touch devices</li>
+		</ul>
+	</section>
+
+
+	<section>
+		<h2>Mobile First</h2>
+		<ul>
+			<li>mobile first can be a strategy for a product, the design process or for development</li>
+			<li><a href="media-queries.html" target="_blank">mobile first example</a></li>
+		</ul>
+	</section>
+
+</body>
+
+</html>
