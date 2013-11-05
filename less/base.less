@@ -36,8 +36,8 @@ row,column{
 
 row,div.row{
 	margin-left:  (@gutter / -2);
-  margin-right: (@gutter / -2);
-  #util > .clearfix();
+	margin-right: (@gutter / -2);
+	#util > .clearfix();
 }
 
 .column-1,
@@ -56,6 +56,12 @@ row,div.row{
 	min-height: 1px;
 	padding-left:  (@gutter / 2);
   	padding-right: (@gutter / 2);
+  	&:first-child{
+  		padding-left:0;
+  	}
+  	&:last-child{
+  		padding-right:0;
+  	}
 }
 
 @media (min-width: @tablet-breakpoint) {
