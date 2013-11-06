@@ -1352,12 +1352,13 @@
 * measurement
 */
 body.ink {
-  background-color: #0099e6;
-  color: #002233;
+  background-color: #99ddff;
+  color: #0088cc;
 }
 body.ink column,
 body.ink .column {
-  background-color: #0088cc;
+  color: #fff;
+  background-color: #00aaff;
   border: 2px solid #002233;
 }
 /*
@@ -1387,6 +1388,11 @@ body {
 body {
   font-size: 2em;
 }
+a {
+  color: #0088cc;
+  text-decoration: underline;
+  font-weight: inherit;
+}
 h1 {
   font-size: 4em;
   letter-spacing: -2px;
@@ -1406,6 +1412,10 @@ h3 {
 img {
   display: block;
 }
+img.bottom {
+  position: absolute;
+  bottom: 0px;
+}
 main {
   margin: 0 auto;
   width: 90%;
@@ -1420,6 +1430,7 @@ ol {
 ul li,
 ol li {
   margin-bottom: 24px;
+  line-height: 48px;
 }
 /*
 * breakpoint display
@@ -1560,10 +1571,27 @@ div.column {
 .presentation h1 {
   color: #fff;
 }
+.presentation h1.jumbo {
+  margin-top: 64px;
+  font-size: 10em;
+  color: #222;
+}
+.presentation h1.jumbo .fa-heart {
+  color: #c30;
+}
+.presentation h1.jumbo .fa-code {
+  color: #0088cc;
+}
 .presentation h2 {
   width: 70%;
 }
+.presentation h2 so {
+  color: #666;
+  display: inline-block;
+  text-decoration: line-through;
+}
 .presentation section {
+  position: relative;
   min-height: 100%;
   padding: 240px 120px 120px 120px;
 }
@@ -1606,6 +1634,10 @@ div.column {
 }
 .presentation section .fa-heart {
   color: #c30;
+}
+.presentation section .fa-thumbs-up,
+.presentation section .fa-thumbs-down {
+  margin-right: 24px;
 }
 .presentation ul,
 .presentation ol {

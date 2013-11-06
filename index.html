@@ -69,53 +69,86 @@
 
 	<section>
 
-		<h3>Project Planning: setting responsive breakpoints</h3>
+		<h2>Setting responsive breakpoints</h2>
 		<ul>
-			<li><a href="http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density" target="_blank">display sizes</a> are NOT standardized</li>
-			<li>display sizes are a spectrum and breakpoints are points along that spectrum where you want to redefine your UI and layout</li>
-			<li>typically you set 3 breakpoints (mobile, tablet, desktop) and let the devices sort themselves out based on their dimensions<br>
-				<img src="img/breakpoints.png">
+			<li><a href="http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density" target="_blank">Display sizes</a> are NOT standardized. It's a spectrum.</li>
+			<li>We set breakpoints along the spectrum to establish where we want to redefine UI and layout.</li>
+			<li>Typically you set 3 breakpoints based on width and let the devices sort themselves out based on their dimensions.<br><br>
+			<img class='bottom' src="img/breakpoints.png">
 				
 			</li>
 		</ul>
 
-		<h3>Resolution and device orientation</h3>
-		<ul>
-			<li>screen resolution and device orientation add complexity to our nice breakpoint spectrum<br>
-				<img src="img/breakpoints-w-landscape.png"></li>
-		</ul>
-
-		<h3>Device width vs. browser width</h3>
-			<a href="http://www.starbuucks.com" target="_blank">starbucks</a> vs <a href="http://www.frogdesign.com" target="_blank">frog</a>
 	</section>
 
+	<section class='green'>
+		<h1>...and then it gets complicated</h1>
+	</section>
 
 	<section>
-		<h2>grids</h2>
-			<a href="grids.html" target="_blank">grid example</a>
+		<h2>Setting responsive breakpoints: <em>resolution and device orientation</em></h2>
+		<h3><a href='http://screensiz.es'>Screen resolution</a> and device orientation add complexity to our simple breakpoint system.</h3>
+		<img class="bottom" src="img/breakpoints-w-landscape.png">
 	</section>
-
 
 	<section>
-		<h2>Advanced Topics & Tips & Do's and Don'ts</h2>
-		<ul>
-			<li>DO hide/show elements</li>
-			<li>DON'T duplicate DOM elements because you're breaking the parent/child nesting</li>
-		</ul>
-
-		<h2>Things to consider</h2>
-		<ul>	
-			<li>no rollovers on touch devices</li>
-		</ul>
+		<h2>Setting responsive breakpoints: <em>device width vs. browser width</em></h2>
+		<h3><a href="http://www.microsoft.com" target="_blank">microsoft</a> vs <a href="http://www.apple.com" target="_blank">apple</a></h3>
 	</section>
 
+	<section>
+		<h2>Let's build a responsive grid system</h2>
+		<h1 class='jumbo'><a href="grids.html" target="_blank"><i class='fa fa-code'></a></i>
+	</section>
+
+	<section class='green'>
+		<h1>Putting it into practice</h1>
+	</section>
+
+	<section>
+		<h2>Your project <em><strong>needs</strong></em> a detailed design phase.</h2>
+		<h3>You're not redesigning the nav, you're redesigning 5 navs.</h3>
+	</section>
+
+	<section>
+		<h2>Think in terms of <em>percentages</em> instead of <so>pixels</so>.</h2>
+		<h1 class='jumbo'><i class='fa fa-heart'></i> %</h1>
+	</section>
+
+	<section>
+		<h2>There's no perfect solution for responsive images.</h2>
+	</section>
+
+	<section>
+		<h2><em><i class="fa fa-thumbs-down"></i>Don't</em> use responsive images.</h2>
+	</section>
+
+	<section>
+		<h2><em><i class="fa fa-thumbs-up"></i>Do</em> hide and show <em>minor</em> UI elements to support responsive.</h2>
+		<h3>Example - <a href='http://getboostrap.com'>the hamburger</a></h3>
+	</section>
+
+	<section>
+		<h2><em><i class="fa fa-thumbs-down"></i>Don't</em> break the parent/child structure of your document.</h2>
+		<img class='bottom' src='img/html-tree-bad.png' />
+	</section>
+
+	<section>
+		<h2><em><i class="fa fa-thumbs-down"></i>Don't</em> depend on rollovers.</h2>
+	</section>
+
+	<section>
+		<h2><em><i class="fa fa-thumbs-down"></i>Don't</em> obsess over height.</h2>
+		<h3>Rectangles, not squares</h3>
+	</section>
+
+	<section class='lead'>
+		<h1>Advanced Topics</h1>
+	</section>
 
 	<section>
 		<h2>Mobile First</h2>
-		<ul>
-			<li>mobile first can be a strategy for a product, the design process or for development</li>
-			<li><a href="media-queries.html" target="_blank">mobile first example</a></li>
-		</ul>
+		<h3>Mobile First can be a product strategy, a design process or  <a href="media-queries.html" target="_blank">a coding convention</a>.</h3>
 	</section>
 
 </body>

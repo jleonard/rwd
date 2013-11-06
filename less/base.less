@@ -36,6 +36,12 @@ body{
 	font-size: 2em;
 }
 
+a{
+	color: @blue;
+	text-decoration: underline;
+	font-weight: inherit;
+}
+
 h1{
 	font-size: 4em;
 	letter-spacing: -2px;
@@ -57,6 +63,10 @@ h3{
 
 img{
 	display: block;
+	&.bottom{
+			position: absolute;
+			bottom: 0px;
+	}
 }
 
 main{
@@ -71,6 +81,7 @@ ul,ol{
 	list-style-type: decimal-leading-zero;
 	li{
 		margin-bottom: @b3;
+		line-height: @b * 6;
 	}
 }
 

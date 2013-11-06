@@ -6,14 +6,31 @@
 
 	h1{
 		color: #fff;
+		&.jumbo{
+			margin-top: @b * 8;
+			font-size: 10em;
+			color: #222;
+			.fa-heart{
+				color: #c30;
+			}
+			.fa-code{
+				color: @blue;
+			}
+		}
 	}
 
 	h2{
 		width: 70%;
+		so{
+			color: #666;
+			display: inline-block;
+			text-decoration: line-through;
+		}
 	}
 
 	section{
 		#util > .clearfix();
+		position: relative;
 		min-height: 100%;
 		padding: 240px 120px 120px 120px;
 		&.lead,&.green{
@@ -31,6 +48,9 @@
 		}
 		.fa-heart{
 			color: #c30;
+		}
+		.fa-thumbs-up,.fa-thumbs-down{
+			margin-right: @b3;
 		}
 	}
 

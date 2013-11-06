@@ -1,10 +1,11 @@
 @ink: #08c;
 
 body.ink{
-	background-color: lighten(@ink,5%);
-	color: darken(@ink,30%); 
+	background-color: lighten(@ink,40%);
+	color: @ink; 
 	column,.column{
-		background-color: @ink;
+		color: #fff;
+		background-color: lighten(@ink,10%);
 		border: 2px solid darken(@ink,30%);
 	}
 }
