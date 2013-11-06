@@ -1412,10 +1412,6 @@ h3 {
 img {
   display: block;
 }
-img.bottom {
-  position: absolute;
-  bottom: 0px;
-}
 main {
   margin: 0 auto;
   width: 90%;
