@@ -1,3 +1,5 @@
+@import "../libs/font-awesome/less/font-awesome.less";
+
 @import "_css3.less";
 @import "_util.less";
 @import "_position.less";
@@ -21,12 +23,13 @@ html{
 html,body{
 	margin:0;
 	padding:0;
+	height: 100%;
 
 	font-family: @sans;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: normal;
 	text-transform: normal;
-	line-height: 1.2em;
+	color: #444;
 }
 
 body{
@@ -38,9 +41,37 @@ h1{
 	letter-spacing: -2px;
 }
 
+h2{
+	font: 2em/1.4375em "Georgia",serif;
+	em{
+		color: @blue;
+		font-weight: normal;
+		font-style: normal;
+	}
+}
+
+h3{
+	margin-top: @b2 !important;
+	font-size: 1.2em;
+}
+
+img{
+	display: block;
+}
+
 main{
 	margin:0 auto;
 	width:90%;
+}
+
+ul,ol{
+	margin: 0px;
+	padding: 0px;
+	font-family: @serif;
+	list-style-type: decimal-leading-zero;
+	li{
+		margin-bottom: @b3;
+	}
 }
 
 /*
@@ -116,3 +147,5 @@ column,div.column{
   	}
 	}
 }
+
+@import "presentation.less";

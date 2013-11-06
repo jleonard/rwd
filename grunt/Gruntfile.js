@@ -18,13 +18,13 @@ module.exports = function(grunt) {
     },
 
     copy: {
-      build: {
+      build: { 
         files: [
           //{expand: true, cwd: '../src/', src: ['*.md'], dest: '../dist/'},
           //{expand: true, cwd: '../src/', src: ['*.ico'], dest: '../dist/src/'},
           //{expand: true, cwd: '../src/font/', src: ['**'], dest: '../dist/src/font/'},
           //{expand: true, cwd: '../src/img/', src: ['**'], dest: '../dist/src/img/'},
-          //{expand: true, cwd: '../libs/font-awesome/font/', src: ['**'], dest: '../dist/src/font/'},
+          {expand: true, cwd: '../libs/font-awesome/fonts/', src: ['**'], dest: '../fonts/'},
           //{expand: true, cwd: '../libs/modernizr/', src: ['modernizr.js'], dest: '../dist/src/js/'},
           //{expand: true, cwd: '../libs/bootstrap/fonts', src: ['**'], dest: '../dist/src/font/'}
         ]
@@ -56,7 +56,8 @@ module.exports = function(grunt) {
         files: {
           "../css/base.css": "../less/base.less",
           '../css/grid.css': "../less/grid.less",
-          '../css/devices.css': "../less/devices.less"
+          '../css/devices.css': "../less/devices.less",
+          '../css/media-queries.css':'../less/media-queries.less'
         }
       }
     },

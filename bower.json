@@ -1,0 +1,32 @@
+{
+  "name": "rwd101",
+  "version": "0.0.1",
+  "main": "/",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "font-awesome": "latest"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jleonard/rwd"
+  },
+  "maintainers": [
+    {
+      "name": "",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "contributors": [
+    {
+      "name": "",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "homepage": ""
+}

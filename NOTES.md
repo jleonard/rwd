@@ -7,17 +7,8 @@
 # The basics
 ## html + css + js
 * When we talk about the 'front end' we're talking about these three technologies. 
-* The technologies advance over time (html5) but they haven't been replaced since their introduction.
+* The technologies advance over time (html5) but they haven't been replaced since their introduction. Compared to the backend world. 
 * When we talk about Bootstrap or jQuery we're talking about one our more of these technologies packaged together.
-
-## html
-* Is content mapped to structure.
-
-
-# The basics
-* html + css + js
-When we talk about your everyday front end we're talking about these three components. They advance over time (html5) but they haven't been replaced since their introduction. 
-When we talk about Bootstrap or jQuery we're talking about one our more of these elements packaged together.
 
 ## html 
 Is content mapped to structure.
